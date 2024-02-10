@@ -2,16 +2,6 @@
 
 export const modConf = {
     channels: `
-        |spartalien
-        |bonus_creature
-        |catch22
-        |charming_jo
-        |chrisundermind
-        |dj_freche_hexe
-        |djlostmelody
-        |eis_thiele_music
-        |existence130
-        |guddah
         |helmahof
         |houseproudtv
         |jck_official
@@ -34,14 +24,14 @@ export const modConf = {
     timestampformat: '{hour}:{minute}:{second}',
     usercolor: 'true',
     emotes: 'true',
-    emotetheme: 'light',
+    emotetheme: 'dark',
     emotesize: 'small',
-    badgebroadcaster: '!',
-    badgemoderator: '*',
-    badgevip: 'v',
-    badgesubscriber: '+',
-    badgesubgifter: '^',
-    badgebits: '°',
+    badgebroadcaster: 'none',
+    badgemoderator: 'none',
+    badgevip: 'none',
+    badgesubscriber: '😒',
+    badgesubgifter: 'none',
+    badgebits: 'none',
     autoscroll: 'true',
     repnum: 'false',
     repmap: '1',

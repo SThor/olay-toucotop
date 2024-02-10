@@ -2,7 +2,8 @@
 
 Display messages from one or more [Twitch](https://twitch.tv) chats.
 
-**Base URL**: <https://etrusci.org/tool/olay/?mod=chat>  
+**Base URL**: <http://vps-fedac591.vps.ovh.net/?mod=chat>  For now, this points to the chats of various channels, for demo purposes. You can still use Toucotop's channel, like this:
+<http://vps-fedac591.vps.ovh.net/?mod=chat&channels=|toucotop_>
 **Default configuration**: [chat.conf.js](./chat.conf.js)  
 **Default style**: [chat.default.css](./chat.default.css)
 
@@ -10,25 +11,25 @@ Display messages from one or more [Twitch](https://twitch.tv) chats.
 
 ## Examples
 
-- [mod=chat](https://etrusci.org/tool/olay/?mod=chat)
-- [mod=chat&channels=|yourchannel|anotherchannel](https://etrusci.org/tool/olay/?mod=chat&channels=|yourchannel|anotherchannel)
-- [mod=chat&ignore=|badgirl|badgirl](https://etrusci.org/tool/olay/?mod=chat&ignore=|badgirl|badgirl)
-- [mod=chat&limit=5](https://etrusci.org/tool/olay/?mod=chat&limit=5)
-- [mod=chat&removeafter=10000](https://etrusci.org/tool/olay/?mod=chat&removeafter=10000)
-- [mod=chat&addto=top](https://etrusci.org/tool/olay/?mod=chat&addto=top)
-- [mod=chat&timestampformat={hour}:{minute}](https://etrusci.org/tool/olay/?mod=chat&timestampformat={hour}:{minute})
-- [mod=chat&usercolor=false](https://etrusci.org/tool/olay/?mod=chat&usercolor=false)
-- [mod=chat&emotes=false](https://etrusci.org/tool/olay/?mod=chat&emotes=false)
-- [mod=chat&emotetheme=dark](https://etrusci.org/tool/olay/?mod=chat&emotetheme=dark)
-- [mod=chat&emotesize=medium](https://etrusci.org/tool/olay/?mod=chat&emotesize=medium)
-- [mod=chat&badgebroadcaster=Broadcaster](https://etrusci.org/tool/olay/?mod=chat&badgebroadcaster=Broadcaster)
-- [mod=chat&badgemoderator=Moderator](https://etrusci.org/tool/olay/?mod=chat&badgemoderator=Moderator)
-- [mod=chat&badgevip=VIP](https://etrusci.org/tool/olay/?mod=chat&badgevip=VIP)
-- [mod=chat&badgesubscriber=Subscriber](https://etrusci.org/tool/olay/?mod=chat&badgesubscriber=Subscriber)
-- [mod=chat&badgesubgifter=Gifter](https://etrusci.org/tool/olay/?mod=chat&badgesubgifter=Gifter)
-- [mod=chat&badgebits=Bits](https://etrusci.org/tool/olay/?mod=chat&badgebits=Bits)
-- [mod=chat&autoscroll=false](https://etrusci.org/tool/olay/?mod=chat&autoscroll=false)
-- [mod=chat&repnum=true&repmap=1](https://etrusci.org/tool/olay/?mod=chat&repnum=true&repmap=1)
+- [mod=chat](http://vps-fedac591.vps.ovh.net/?mod=chat)
+- [mod=chat&channels=|yourchannel|anotherchannel](http://vps-fedac591.vps.ovh.net/?mod=chat&channels=|yourchannel|anotherchannel)
+- [mod=chat&ignore=|badgirl|badgirl](http://vps-fedac591.vps.ovh.net/?mod=chat&ignore=|badgirl|badgirl)
+- [mod=chat&limit=5](http://vps-fedac591.vps.ovh.net/?mod=chat&limit=5)
+- [mod=chat&removeafter=10000](http://vps-fedac591.vps.ovh.net/?mod=chat&removeafter=10000)
+- [mod=chat&addto=top](http://vps-fedac591.vps.ovh.net/?mod=chat&addto=top)
+- [mod=chat&timestampformat={hour}:{minute}](http://vps-fedac591.vps.ovh.net/?mod=chat&timestampformat={hour}:{minute})
+- [mod=chat&usercolor=false](http://vps-fedac591.vps.ovh.net/?mod=chat&usercolor=false)
+- [mod=chat&emotes=false](http://vps-fedac591.vps.ovh.net/?mod=chat&emotes=false)
+- [mod=chat&emotetheme=dark](http://vps-fedac591.vps.ovh.net/?mod=chat&emotetheme=dark)
+- [mod=chat&emotesize=medium](http://vps-fedac591.vps.ovh.net/?mod=chat&emotesize=medium)
+- [mod=chat&badgebroadcaster=Broadcaster](http://vps-fedac591.vps.ovh.net/?mod=chat&badgebroadcaster=Broadcaster)
+- [mod=chat&badgemoderator=Moderator](http://vps-fedac591.vps.ovh.net/?mod=chat&badgemoderator=Moderator)
+- [mod=chat&badgevip=VIP](http://vps-fedac591.vps.ovh.net/?mod=chat&badgevip=VIP)
+- [mod=chat&badgesubscriber=Subscriber](http://vps-fedac591.vps.ovh.net/?mod=chat&badgesubscriber=Subscriber)
+- [mod=chat&badgesubgifter=Gifter](http://vps-fedac591.vps.ovh.net/?mod=chat&badgesubgifter=Gifter)
+- [mod=chat&badgebits=Bits](http://vps-fedac591.vps.ovh.net/?mod=chat&badgebits=Bits)
+- [mod=chat&autoscroll=false](http://vps-fedac591.vps.ovh.net/?mod=chat&autoscroll=false)
+- [mod=chat&repnum=true&repmap=1](http://vps-fedac591.vps.ovh.net/?mod=chat&repnum=true&repmap=1)
 
 ---
 

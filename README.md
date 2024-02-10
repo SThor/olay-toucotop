@@ -1,4 +1,6 @@
-# Olay
+# Olay-toucotop
+
+This is a fork of <https://github.com/etrusci-org>, personnalised for [Toucotop's channel](https://www.twitch.tv/toucotop_)
 
 Live stream overlay stuff for use as Browser-Source in [OBS Studio](https://github.com/obsproject/obs-studio).
 
@@ -6,7 +8,14 @@ Live stream overlay stuff for use as Browser-Source in [OBS Studio](https://gith
 
 ## Modules
 
+I am in the process of customizing the modules
+
+### Customized
+
 - [chat](./app/mod/chat/README.md)
+
+### In progress
+
 - [clock](./app/mod/clock/README.md)
 - [colorfader](./app/mod/colorfader/README.md)
 - [goal](./app/mod/goal/README.md)
@@ -18,10 +27,10 @@ Live stream overlay stuff for use as Browser-Source in [OBS Studio](https://gith
 
 ## Hosting
 
-I host the current [main branch](https://github.com/etrusci-org/olay/tree/main), which is most likely ahead of the latest release.  
-Access it at: <https://etrusci.org/tool/olay/>
+I host the current [main branch](https://github.com/SThor/olay-toucotop/tree/toucotop), which is most likely ahead of the latest release.  
+Access it at: <http://vps-fedac591.vps.ovh.net>
 
-You can also clone this repo or download a specific [release](https://github.com/etrusci-org/olay/releases) and put it on your own webserver.
+You can also clone this repo or download a specific [release](https://github.com/SThor/olay-toucotop/releases) and put it on your own webserver.
 
 ---
 
