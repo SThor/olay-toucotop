@@ -1,12 +1,15 @@
 /* For help see "Output Styling" topic in README.md */
 @import url('https://fonts.cdnfonts.com/css/borela');
 :root {
-    --Dark: #1f0f01;
-    --Main: #e56d0c;
-    --Light: #ffebdb;
-    --pop-pink: #1f0f01;
-    --pop-yellow: #e56d0c;
-    --pop-blue: #ffebdb;
+    --DarkRGBA: 31, 15, 1; /*#1f0f01;*/
+    --MainRGBA: 229, 109, 12;/*#e56d0c;*/
+    --LightRGBA: 255, 235, 219;/*#ffebdb;*/
+    --Dark: rgb(var(--DarkRGBA));
+    --Main: rgb(var(--MainRGBA));
+    --Light: rgb(var(--LightRGBA));
+    --pop-pink: rgb(255, 235, 219);
+    --pop-yellow: rgb(229, 109, 12);
+    --pop-blue: rgb(31, 15, 1);
     margin: 0;
     padding: 0;
 }

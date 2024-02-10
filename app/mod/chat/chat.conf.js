@@ -20,7 +20,7 @@ export const modConf = {
     ignore: ``,
     limit: '100',
     removeafter: 'never',
-    addto: 'bottom',
+    addto: 'top',
     timestampformat: '{hour}:{minute}:{second}',
     usercolor: 'true',
     emotes: 'true',

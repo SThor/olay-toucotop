@@ -2,13 +2,23 @@
 
 .mod {
     position: absolute;
-    bottom: 0;
+    top: 0;
     width: 100%;
-    background-color: transparent;
-    border-bottom: var(--Main) 7px solid;
+    padding: 10px;
+    background-color: rgba(var(--LightRGBA), 0.4);    
+    border-left: var(--Main) 7px solid;
+    border-right: var(--Main) 7px solid;
+    color: var(--Dark);
 }
 
 .chatline > .message > .emote {
     height: 1rem;
     width: auto;
+}
+
+.chatline > .timestamp {
+    font-size: 0.95rem;
+    opacity: 0.8;
+    font-family: monospace, monospace;
+    font-variant-numeric: tabular-nums;
 }
