@@ -1,0 +1,1 @@
+screen -S Http sudo python3 -m http.server 80 -d ./app/
