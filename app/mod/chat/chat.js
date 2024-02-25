@@ -101,7 +101,7 @@ export class Mod extends ModBase
 
         const messageHTML = `
             <div class="chatline ${channel.substring(1)} id-${tags['id']}${(tags['first-msg']) ? ' first' : ''}">
-                <span class="timestamp">${timestamp}</span>
+            <!-- <span class="timestamp">${timestamp}</span> -->
                 <!-- <span class="channel">${channel}</span> -->
                 <span class="badges">${badges}</span>
                 <span class="user"${(this.conf.usercolor && tags['color']) ? ` style="color:${tags['color']};"` : ''}>${user}</span>

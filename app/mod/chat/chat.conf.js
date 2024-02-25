@@ -25,7 +25,7 @@ export const modConf = {
     usercolor: 'true',
     emotes: 'true',
     emotetheme: 'dark',
-    emotesize: 'small',
+    emotesize: 'medium',
     badgebroadcaster: '🤴',
     badgemoderator: '⚔️',
     badgevip: 'none',
