@@ -4,6 +4,7 @@
     position: absolute;
     top: 0;
     width: 100%;
+    height: 100vh;
     padding: 10px;
     background-color: rgba(var(--LightRGBA), 0.4);    
     border-left: var(--Main) 7px solid;
